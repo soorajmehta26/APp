@@ -1,0 +1,125 @@
+.frame-inner {
+  position: absolute;
+  top: 27.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 366px;
+  height: 1px;
+}
+.deep {
+  color: var(--color-darkred);
+}
+.challenge-from-deep-container,
+.div3,
+.entry-fee1,
+.prize1 {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  font-weight: 600;
+}
+.div3,
+.entry-fee1,
+.prize1 {
+  top: 29px;
+  left: 117px;
+}
+.div3,
+.entry-fee1 {
+  left: 10px;
+}
+.div3 {
+  top: 1px;
+  left: 41px;
+}
+.global-rupeeicon-12 {
+  position: absolute;
+  top: 0;
+  left: 11px;
+  width: 26px;
+  height: 26px;
+  object-fit: cover;
+}
+.container,
+.frame-div {
+  position: absolute;
+  top: 51px;
+  left: 0;
+  background-color: var(--color-gray-100);
+  width: 75px;
+  height: 36px;
+  overflow: hidden;
+  font-size: var(--font-size-base);
+}
+.frame-div {
+  left: 101px;
+}
+.accept {
+  position: absolute;
+  top: 4px;
+  left: 5px;
+  font-size: var(--font-size-mid);
+  font-weight: 600;
+  font-family: var(--font-open-sans);
+  color: var(--color-white);
+  text-align: left;
+}
+.accept-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-forestgreen);
+  position: absolute;
+  top: 42px;
+  left: 216px;
+  border-radius: var(--br-7xs);
+  box-shadow: 0 6px 100px 10px rgba(0, 0, 0, 0.25);
+  width: 65px;
+  height: 32px;
+  overflow: hidden;
+}
+.reject {
+  position: absolute;
+  top: 4px;
+  left: 7px;
+  font-size: var(--font-size-mid);
+  font-weight: 600;
+  font-family: var(--font-open-sans);
+  color: var(--color-white);
+  text-align: left;
+}
+.line-group,
+.reject-wrapper {
+  position: absolute;
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+}
+.reject-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-darkred);
+  top: 42px;
+  left: 289px;
+  box-shadow: 0 6px 100px 10px rgba(0, 0, 0, 0.25);
+  width: 65px;
+  height: 32px;
+}
+.line-group {
+  top: 146px;
+  left: calc(50% - 183.4px);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 233, 233, 0.93),
+    rgba(255, 255, 255, 0)
+  );
+  box-shadow: -6px 4px 50px 5px rgba(0, 0, 0, 0.25);
+  width: 365px;
+  height: 87px;
+  mix-blend-mode: normal;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}

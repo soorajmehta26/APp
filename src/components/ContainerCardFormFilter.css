@@ -1,0 +1,102 @@
+.frame-item {
+  position: absolute;
+  top: 27.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 366px;
+  height: 1px;
+}
+.div1,
+.entry-fee,
+.prize {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  font-weight: 600;
+}
+.div1,
+.prize {
+  left: 232px;
+}
+.div1 {
+  top: 1px;
+  left: 41px;
+}
+.global-rupeeicon-1 {
+  position: absolute;
+  top: 0;
+  left: 11px;
+  width: 26px;
+  height: 26px;
+  object-fit: cover;
+}
+.group,
+.parent {
+  position: absolute;
+  top: 3px;
+  left: 74px;
+  background-color: var(--color-gray-100);
+  width: 75px;
+  height: 36px;
+  overflow: hidden;
+  font-size: var(--font-size-base);
+}
+.group {
+  left: 266px;
+}
+.ava-1-icon {
+  position: absolute;
+  top: 3.1px;
+  left: 6px;
+  width: 45px;
+  height: 43.9px;
+  object-fit: cover;
+}
+.amit {
+  position: absolute;
+  top: 47px;
+  left: 13px;
+  font-weight: 600;
+}
+.ava-1-group,
+.ava-1-parent {
+  position: absolute;
+  top: 29px;
+  left: 55px;
+  width: 60px;
+  height: 65px;
+  overflow: hidden;
+  font-size: var(--font-size-smi);
+}
+.ava-1-group {
+  left: 236px;
+}
+.versus-1-icon {
+  position: absolute;
+  top: 47px;
+  left: 150px;
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+.line-parent {
+  position: absolute;
+  top: 51px;
+  left: calc(50% - 182px);
+  border-radius: var(--br-7xs);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 233, 233, 0.93),
+    rgba(255, 255, 255, 0)
+  );
+  box-shadow: -6px 4px 50px 5px rgba(0, 0, 0, 0.25);
+  width: 365px;
+  height: 94px;
+  overflow: hidden;
+  mix-blend-mode: normal;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}

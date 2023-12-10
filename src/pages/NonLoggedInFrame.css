@@ -1,0 +1,211 @@
+.ringing-1-1,
+.wallet-1-1 {
+  text-decoration: none;
+  position: absolute;
+  top: calc(50% - 14px);
+  right: 78px;
+  width: 34px;
+  height: 30px;
+  background-image: url(/public/ringing11@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.wallet-1-1 {
+  top: calc(50% - 15px);
+  right: 20px;
+  width: 32px;
+  height: 31px;
+  background-image: url(/public/wallet11@2x.png);
+}
+.epicwin-9-1 {
+  position: absolute;
+  top: 10px;
+  left: 8px;
+  width: 172px;
+  height: 68px;
+  object-fit: cover;
+}
+.landing-page-header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-darkred);
+  height: 76px;
+  overflow: hidden;
+}
+.login {
+  position: absolute;
+  top: 7px;
+  left: 23px;
+  line-height: 24px;
+}
+.login-button,
+.ludo-1 {
+  text-decoration: none;
+  position: absolute;
+}
+.login-button {
+  top: 154px;
+  left: calc(50% - 58px);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-forestgreen);
+  width: 100px;
+  height: 38px;
+  overflow: hidden;
+  mix-blend-mode: normal;
+  color: inherit;
+  cursor: pointer;
+  
+}
+.ludo-1 {
+  top: 0;
+  left: 0;
+  width: 169px;
+  height: 164px;
+  background-image: url(/public/ludo1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.game {
+  top: 290px;
+  left: calc(50% - 176px);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  overflow: hidden;
+}
+.game,
+.game1,
+.game2,
+.game3,
+.ludo-1-icon {
+  position: absolute;
+  width: 169px;
+  height: 164px;
+}
+.ludo-1-icon {
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.game1,
+.game2,
+.game3 {
+  top: 290px;
+  left: calc(50% + 6px);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  overflow: hidden;
+}
+.game2,
+.game3 {
+  top: 465px;
+  left: calc(50% - 176px);
+}
+.game3 {
+  left: calc(50% + 6px);
+}
+.home-3-1 {
+  text-decoration: none;
+  background-image: url(/public/home31@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.home,
+.home-3-1,
+.home-3-1-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 42px;
+  height: 42px;
+}
+.home {
+  width: 8.05%;
+  top: 5px;
+  right: 79.1%;
+  left: 12.85%;
+}
+.salesman-3-1 {
+  text-decoration: none;
+  top: 0;
+  left: 0;
+  width: 45px;
+  background-image: url(/public/salesman31@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.refer,
+.refer-inner,
+.salesman-3-1 {
+  position: absolute;
+  height: 45px;
+}
+.refer-inner {
+  top: 0;
+  left: 0;
+  width: 45px;
+}
+.refer {
+  top: 5px;
+  left: calc(50% - 20.6px);
+  width: 41.1px;
+}
+.menu-2-1,
+.menu-2-1-wrapper {
+  position: absolute;
+  top: 0;
+  width: 45px;
+  height: 45px;
+}
+.menu-2-1 {
+  text-decoration: none;
+  right: 0;
+  background-image: url(/public/menu21@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.menu-2-1-wrapper {
+  right: -0.4px;
+}
+
+.menu {
+  position: absolute;
+}
+.menu {
+  width: 8.62%;
+  top: 5px;
+  right: 12.13%;
+  left: 79.26%;
+  height: 45px;
+}
+.footer {
+  position: fixed;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  box-shadow: 0 4px 100px 10px rgba(0, 0, 0, 0.25);
+  height: 55px;
+  overflow: hidden;
+  mix-blend-mode: normal;
+}
+.non-logged-in-frame {
+  position: relative;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-open-sans);
+}

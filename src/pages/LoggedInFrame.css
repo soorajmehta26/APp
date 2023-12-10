@@ -1,0 +1,84 @@
+
+.login2 {
+  position: absolute;
+  top: 7px;
+  left: 23px;
+  line-height: 24px;
+}
+.login-button1 {
+  position: absolute;
+  top: 154px;
+  left: calc(50% - 58px);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-forestgreen);
+  width: 100px;
+  height: 38px;
+  overflow: hidden;
+  display: none;
+  mix-blend-mode: normal;
+  color: inherit;
+}
+.game4,
+.login-button1,
+.ludo-11 {
+  text-decoration: none;
+}
+
+.game4 {
+  top: 290px;
+  left: calc(50% - 176px);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  overflow: hidden;
+}
+.game4,
+.game5,
+.game6,
+.ludo-1-icon3 {
+  position: absolute;
+  width: 169px;
+  height: 164px;
+}
+.ludo-1-icon3 {
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.game5,
+.game6 {
+  border-radius: var(--br-3xs);
+}
+.game5 {
+  top: 290px;
+  left: calc(50% + 6px);
+  background-color: var(--color-white);
+  overflow: hidden;
+}
+.game6 {
+  top: 465px;
+  left: calc(50% - 176px);
+}
+.game6,
+.game7,
+.logged-in-frame {
+  background-color: var(--color-white);
+  
+}
+.game7 {
+  position: absolute;
+  top: 465px;
+  left: calc(50% + 6px);
+  border-radius: var(--br-3xs);
+  width: 169px;
+  height: 164px;
+}
+.logged-in-frame {
+ 
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+ 
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-open-sans);
+}

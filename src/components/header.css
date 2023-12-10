@@ -1,0 +1,42 @@
+.landing-page-header1 {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--color-darkred);
+    height: 76px;
+    overflow: hidden;
+  }
+  .ringing-1-11 {
+    top: calc(50% - 14px);
+    right: 78px;
+    width: 34px;
+    height: 30px;
+    background-image: url(/public/ringing111@2x.png);
+  }
+  .epicwin-9-11,
+  .ringing-1-11,
+  .wallet-1-11 {
+    text-decoration: none;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .wallet-1-11 {
+    top: calc(50% - 15px);
+    right: 20px;
+    width: 32px;
+    height: 31px;
+    background-image: url(/public/wallet11@2x.png);
+  }
+  .epicwin-9-11 {
+    top: 10px;
+    left: 8px;
+    width: 172px;
+    height: 68px;
+    background-image: url(/public/epicwin91@2x.png);
+  }
+  

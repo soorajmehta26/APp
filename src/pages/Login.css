@@ -1,0 +1,88 @@
+.login-label {
+  /* position: absolute;
+  top: calc(50% - 112px);
+  left: calc(50% - 70.5px); */
+  font-weight: 100;
+  color: black;
+  display: flex;
+ 
+}
+.call-1-1 {
+  top: 7px;
+  left: 9px;
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+.call-1-1,
+.div,
+.num-con {
+  position: absolute;
+}
+.div {
+  top: 9px;
+  left: 65px;
+  font-weight: 600;
+}
+.num-con {
+  top: calc(50% - 57px);
+  left: calc(50% - 132.5px);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  width: 265px;
+  height: 45px;
+  overflow: hidden;
+  color: var(--color-black);
+}
+.continue {
+  position: absolute;
+  top: 9px;
+  left: 80px;
+  font-weight: 600;
+}
+.con-button,
+.login-container {
+  position: absolute;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+}
+.con-button {
+  top: calc(50% + 16px);
+  left: calc(50% - 132.5px);
+  background-color: var(--color-forestgreen);
+  width: 265px;
+  height: 45px;
+}
+.login-container {
+  top: calc(50% - 120px);
+  left: calc(50% - 187px);
+  background-color: #272121;
+  box-shadow: -4px -4px 100px 10px rgba(0, 0, 0, 0.25),
+    4px 4px 100px 10px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 375px;
+  height: 262px;
+}
+.logo-icon {
+  position: absolute;
+  top: 8px;
+  left: calc(50% - 227px);
+  width: 454px;
+  height: 338px;
+  object-fit: cover;
+}
+.login1 {
+  position: relative;
+  width: 100%;
+  height: 870px;
+  overflow: hidden;
+  background-image: url(/public/login@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-open-sans);
+}

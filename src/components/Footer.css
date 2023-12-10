@@ -1,0 +1,73 @@
+.home-3-1-frame,
+.home2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 42px;
+  height: 42px;
+}
+.home2 {
+  width: 8.04%;
+  top: 5px;
+  right: 79.12%;
+  left: 12.84%;
+}
+.salesman-3-12 {
+  top: 0;
+  left: 0;
+  width: 45px;
+  object-fit: cover;
+}
+.group-div,
+.refer2,
+.salesman-3-12 {
+  position: absolute;
+  height: 45px;
+}
+.group-div {
+  top: 0;
+  left: 0;
+  width: 45px;
+}
+.refer2 {
+  top: 5px;
+  left: calc(50% - 20.6px);
+  width: 41.1px;
+}
+.menu-2-1-frame,
+.menu-2-12 {
+  top: 0;
+  width: 45px;
+  height: 45px;
+}
+.menu-2-12 {
+  position: absolute;
+  right: 0;
+  object-fit: cover;
+}
+.menu-2-1-frame {
+  right: 0.1px;
+}
+.footer2,
+.menu-2-1-frame,
+.menu2 {
+  position: absolute;
+}
+.menu2 {
+  width: 8.61%;
+  top: 5px;
+  right: 12.14%;
+  left: 79.25%;
+  height: 45px;
+}
+.footer2 {
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  box-shadow: 0 4px 100px 10px rgba(0, 0, 0, 0.25);
+  height: 55px;
+  overflow: hidden;
+  mix-blend-mode: normal;
+}

@@ -1,0 +1,113 @@
+.referral-earning {
+  position: absolute;
+  top: 75px;
+  left: 22px;
+  font-weight: 600;
+  background: linear-gradient(#3b3a3a, #3b3a3a), #000;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.e {
+  letter-spacing: 0.05em;
+}
+.total-balance {
+  position: absolute;
+  top: 12px;
+  left: 22px;
+  font-weight: 600;
+  background: linear-gradient(#3b3a3a, #3b3a3a), #000;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.b,
+.rupee-1-icon {
+  position: absolute;
+  top: 4px;
+}
+.rupee-1-icon {
+  left: 3px;
+  width: 20px;
+  height: 22.7px;
+  object-fit: cover;
+}
+.b {
+  left: 28px;
+  line-height: 24px;
+}
+.balance {
+  top: 39px;
+  width: 137px;
+  height: 32px;
+  overflow: hidden;
+  font-size: var(--font-size-xl);
+}
+.balance,
+.balance1,
+.recharge {
+  position: absolute;
+  left: 22px;
+}
+.balance1 {
+  top: 102px;
+  width: 137px;
+  height: 32px;
+  overflow: hidden;
+  font-size: var(--font-size-xl);
+}
+.recharge {
+  top: 10px;
+  font-weight: 600;
+}
+.b1-green-button {
+  position: absolute;
+  top: 17px;
+  left: 209px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-forestgreen);
+  width: 120px;
+  height: 46px;
+  overflow: hidden;
+  text-align: center;
+  color: var(--color-white);
+}
+.withdraw {
+  position: absolute;
+  top: 7px;
+  left: 19px;
+  font-weight: 600;
+}
+.b1-grey-button {
+  position: absolute;
+  top: 89px;
+  left: 209px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-darkgray);
+  width: 120px;
+  height: 41px;
+  overflow: hidden;
+  text-align: center;
+  color: var(--color-darkslategray-100);
+}
+.mini-wallet-com {
+  position: absolute;
+  top: 94px;
+  left: calc(50% - 176px);
+  border-radius: var(--br-5xs);
+  background: linear-gradient(
+    180deg,
+    #bf7979,
+    rgba(224, 189, 189, 0.49) 51.04%,
+    rgba(255, 255, 255, 0)
+  );
+  box-shadow: 7px 4px 100px 8px rgba(0, 0, 0, 0.2),
+    7px 4px 100px 8px rgba(0, 0, 0, 0.2);
+  width: 351px;
+  height: 146px;
+  overflow: hidden;
+  opacity: 0.2;
+  mix-blend-mode: normal;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}

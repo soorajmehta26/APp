@@ -1,0 +1,95 @@
+.home-3-13 {
+  text-decoration: none;
+  background-image: url(/public/home31@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.home-3-1-wrapper1,
+.home-3-13,
+.home3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 42px;
+  height: 42px;
+}
+.home3 {
+  text-decoration: none;
+  width: 8.05%;
+  top: 5px;
+  right: 79.1%;
+  left: 12.85%;
+}
+.salesman-3-13 {
+  text-decoration: none;
+  top: 0;
+  left: 0;
+  width: 45px;
+  background-image: url(/public/salesman31@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.salesman-3-1-wrapper1,
+.salesman-3-13 {
+  position: absolute;
+  height: 45px;
+}
+.group-a,
+.salesman-3-1-wrapper1 {
+  top: 0;
+  left: 0;
+  width: 45px;
+}
+.group-a,
+.menu-2-1-wrapper1,
+.menu-2-13,
+.refer3 {
+  text-decoration: none;
+  position: absolute;
+  height: 45px;
+}
+.refer3 {
+  top: 5px;
+  left: calc(50% - 20.6px);
+  width: 41.1px;
+}
+.menu-2-1-wrapper1,
+.menu-2-13 {
+  top: 0;
+  width: 45px;
+}
+.menu-2-13 {
+  right: 0;
+  background-image: url(/public/menu21@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.menu-2-1-wrapper1 {
+  right: -0.4px;
+}
+.footer3,
+.menu3 {
+  position: absolute;
+}
+.menu3 {
+  text-decoration: none;
+  width: 8.62%;
+  top: 5px;
+  right: 12.13%;
+  left: 79.26%;
+  height: 45px;
+}
+.footer3 {
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  box-shadow: 0 4px 100px 10px rgba(0, 0, 0, 0.25);
+  height: 55px;
+  overflow: hidden;
+  mix-blend-mode: normal;
+}
